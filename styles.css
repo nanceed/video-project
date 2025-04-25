@@ -189,7 +189,10 @@ Video
     z-index: 999;
     transition: var(--transition);
 }
-
+.hide-preloader {
+    z-index: -999;
+    visibility: hidden;
+}
 .header {
     min-height: 100vh;
     position: relative;
@@ -207,6 +210,8 @@ Video
 }
 h1 {
     color: var(--clr-white);
+    margin-top: 400px;
+    text-align: center;
 }
 /* switch button */
 
